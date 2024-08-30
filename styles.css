@@ -1,0 +1,159 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do documento */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #e0f7fa; 
+    padding-bottom: 50px; 
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style-type: none;
+    background-color: #0288d1; 
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #0277bd;
+    border-radius: 5px;
+}
+
+/* Estilo do cabeçalho */
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+    color: #0288d1;
+}
+
+/* Conteúdo principal */
+section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #01579b;
+}
+
+/* Lista de links do portfólio */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #b3e5fc; 
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section ul li a {
+    text-decoration: none;
+    color: #01579b; 
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+section ul li a:hover {
+    color: #0288d1; 
+}
+
+/* Estilo do formulário de contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #e1f5fe;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    color: #01579b;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0288d1;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: #01579b;
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0277bd;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #0288d1;
+    color: white;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
